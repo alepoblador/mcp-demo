@@ -4,9 +4,6 @@ import httpx
 
 mcp = FastMCP("weather", log_level="ERROR")
 
-NWS_API_BASE = "https://api.weather.gov"
-USER_AGENT = "weather-app/1.0"
-
 LONDON_LATITUDE = 51.5074
 LONDON_LONGITUDE = -0.1278
 
@@ -15,7 +12,7 @@ async def fetch_weather_rain(lat: float, lon: float):
         try:
             headers = {"User-Agent": USER_AGENT}
             response = await client.get(
-                "https://api.open-meteo.com/v1/forecast",
+                "https://api.open-meteo.com/v1/forecast",  # open API, no API keys needed
                 params={"latitude": lat, "longitude": lon, "hourly": "rain"},
                 headers=headers,
                 timeout=10
