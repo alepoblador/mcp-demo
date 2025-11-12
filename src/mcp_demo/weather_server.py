@@ -27,7 +27,7 @@ async def fetch_weather_rain(lat: float, lon: float):
 
 @mcp.tool(
     name="get_weather",
-    description="Get the current weather in London right now.",
+    description="Find whether it is raining in London right now.",
 )
 async def get_weather_rain():
     weather_data = await fetch_weather_rain(LONDON_LATITUDE, LONDON_LONGITUDE)
