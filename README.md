@@ -17,5 +17,12 @@
   - Email templates for invite and reject
 
 - Prompts
+
   - `evaluate_application`
     - provides detailed instructions about how to evaluate applications, draft emails using templates, and update the tracker
+
+- Example flow:
+
+1. User prompts the model to get the latest applications.
+2. User supplies resources as context: job description, email templates
+3. User uses the evaluate_applicant prompt to run the evaluation pipeline
