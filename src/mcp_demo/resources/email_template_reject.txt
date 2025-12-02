@@ -1,0 +1,2 @@
+Hi {applicant_name},
+Unfortunately I don't believe we are a good fit.

@@ -1,0 +1,2 @@
+Hi {applicant_name},
+Just checking in - are you still interested?

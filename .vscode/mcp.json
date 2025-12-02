@@ -1,16 +1,9 @@
 {
   "servers": {
-    "weather-server": {
+    "recruiting-server": {
       "transport": "stdio",
       "command": "uv",
-      "args": ["--directory", "src/mcp_demo", "run", "weather_server.py"]
-    },
-    "google-calendar": {
-      "command": "npx",
-      "args": ["@cocal/google-calendar-mcp"],
-      "env": {
-        "GOOGLE_OAUTH_CREDENTIALS": "src/mcp_demo/credentials.json"
-      }
+      "args": ["--directory", "src/mcp_demo", "run", "recruiting_server.py"]
     }
   }
 }

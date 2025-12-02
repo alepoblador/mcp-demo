@@ -1,0 +1,7 @@
+{
+  "source": {
+    "type": "filesystem",
+    "path": "src/mcp_demo/recruiting_server.py",
+    "entrypoint": "mcp"
+  }
+}

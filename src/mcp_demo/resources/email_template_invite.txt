@@ -1,0 +1,2 @@
+Hi {applicant_name},
+Thank you for applying! Would you like to meet us for a chat?
